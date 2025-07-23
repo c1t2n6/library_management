@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Thư viện</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Thư viện</h2>
+            <nav>
+                <ul>
+                    <li><a href="#" id="nav-dashboard">Dashboard</a></li>
+                    <li><a href="#" id="nav-books">Quản lý Sách</a></li>
+                    <li><a href="#" id="nav-users">Quản lý Người dùng</a></li>
+                    <li><a href="#" id="nav-borrows">Quản lý Mượn/Trả</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <h1>Hệ thống Quản lý Thư viện</h1>
+            </header>
+            <section id="dashboard-section" class="section active">
+                <h2>Dashboard</h2>
+                <div class="stats">
+                    <div class="stat-card"><span id="stat-books">0</span><p>Sách</p></div>
+                    <div class="stat-card"><span id="stat-users">0</span><p>Người dùng</p></div>
+                    <div class="stat-card"><span id="stat-borrows">0</span><p>Lượt mượn</p></div>
+                </div>
+            </section>
+            <section id="books-section" class="section">
+                <!-- Quản lý sách sẽ được render ở đây -->
+            </section>
+            <section id="users-section" class="section">
+                <!-- Quản lý người dùng sẽ được render ở đây -->
+            </section>
+            <section id="borrows-section" class="section">
+                <!-- Quản lý mượn/trả sẽ được render ở đây -->
+            </section>
+        </main>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html> 
